@@ -6,7 +6,7 @@ const AboutSection = () => {
     <section id="about" className="section-padding bg-cream">
       <div className="container-wide">
         <p className="text-gold font-semibold text-sm uppercase tracking-widest mb-2 text-center">
-          About LMOK Global Trade
+          About Falcon Crest
         </p>
         <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary text-center mb-12">
           Leading Spices, Rice & Pulses Exporter from India
@@ -15,7 +15,7 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              LMOK Global Trade is a trusted merchant exporter from India, based in Ananthapur, Andhra Pradesh, and registered under MSME and the Andhra Pradesh Chamber of Commerce. We specialize in the export of premium Indian spices, rice, pulses, and agro commodities, including Dry Red Chilly, Turmeric Powder, Basmati Rice, Non-Basmati Rice, and Ground Nuts.
+              Falcon Crest is a trusted merchant exporter from India, based in Ananthapur, Andhra Pradesh, and registered under MSME and the Andhra Pradesh Chamber of Commerce. We specialize in the export of premium Indian spices, rice, pulses, and agro commodities, including Dry Red Chilly, Turmeric Powder, Basmati Rice, Non-Basmati Rice, and Ground Nuts.
             </p>
 
             <div className="space-y-4 mb-6">
@@ -25,7 +25,7 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground">Email us</p>
-                  <p className="font-semibold text-foreground">info@lmokglobaltrade.com</p>
+                  <p className="font-semibold text-foreground">info@falconcrest.com</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -47,7 +47,7 @@ const AboutSection = () => {
           <div className="relative">
             <img
               src={aboutImg}
-              alt="About LMOK Global Trade"
+              alt="About Falcon Crest"
               className="rounded-lg shadow-xl w-full object-cover aspect-square"
             />
             <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-gold rounded-lg hidden md:block" />

@@ -32,7 +32,7 @@ const ProductsSection = () => {
           Our Products
         </h2>
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-12">
-          <strong className="text-foreground">LMOK Global Trade</strong> offers a wide range of high-quality Indian agro products sourced directly from trusted farmers and suppliers.
+          <strong className="text-foreground">Falcon Crest</strong> offers a wide range of high-quality Indian agro products sourced directly from trusted farmers and suppliers.
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
