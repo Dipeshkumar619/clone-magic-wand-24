@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-10">
           <div>
             <h3 className="font-heading font-bold text-2xl mb-4">
-              LMOK <span className="text-gold">Global Trade</span>
+              Falcon <span className="text-gold">Crest</span>
             </h3>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-4">
               A trusted merchant exporter from India, specializing in premium spices, rice, pulses, and agro commodities.
@@ -48,7 +48,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-gold shrink-0" />
-                <a href="mailto:info@lmokglobaltrade.com" className="hover:text-gold transition-colors">info@lmokglobaltrade.com</a>
+                <a href="mailto:info@falconcrest.com" className="hover:text-gold transition-colors">info@falconcrest.com</a>
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@ const Footer = () => {
 
       <div className="border-t border-primary-foreground/10 py-4 text-center text-sm text-primary-foreground/50">
         <div className="container-wide px-4">
-          © {new Date().getFullYear()} LMOK Global Trade. All Rights Reserved.
+          © {new Date().getFullYear()} Falcon Crest. All Rights Reserved.
         </div>
       </div>
     </footer>
