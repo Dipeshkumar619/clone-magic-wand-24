@@ -11,17 +11,17 @@ import oilsImg from "@/assets/oils.jpg";
 import agriProductsImg from "@/assets/agri-products.jpg";
 
 const products = [
-  { name: "Spices", image: spicesImg, desc: "Premium Indian spices sourced from reliable growers, known for rich aroma, natural color, and strong flavor." },
-  { name: "Rice", image: riceImg, desc: "High-quality Indian rice suitable for both retail and bulk consumption across global markets." },
+  { name: "Spices", image: spicesImg, desc: "Premium spices sourced from reliable growers, known for rich aroma, natural color, and strong flavor." },
+  { name: "Rice", image: riceImg, desc: "High-quality rice suitable for both retail and bulk consumption across global markets." },
   { name: "Pulses", image: pulsesImg, desc: "Nutritious pulses sourced from trusted farms and cleaned using modern techniques." },
   { name: "Ground Nuts", image: groundnutsImg, desc: "Carefully selected and processed ground nuts to maintain freshness and quality." },
-  { name: "Nuts & Oilseeds", image: nutsOilseedsImg, desc: "Premium Indian nuts and oilseeds, processed under strict quality control measures." },
-  { name: "Millets & Grains", image: milletsImg, desc: "Premium selection of Indian millets and grains, processed under strict quality standards." },
+  { name: "Nuts & Oilseeds", image: nutsOilseedsImg, desc: "Premium nuts and oilseeds, processed under strict quality control measures." },
+  { name: "Millets & Grains", image: milletsImg, desc: "Premium selection of millets and grains, processed under strict quality standards." },
   { name: "Plantation & Horticulture", image: plantationImg, desc: "Diverse range of premium plantation and horticulture products from trusted estates." },
-  { name: "Fresh Fruits", image: fruitsImg, desc: "Premium Indian fresh fruits, sourced from trusted orchards and handled with care." },
-  { name: "Vegetables", image: vegetablesImg, desc: "Premium Indian fresh vegetables, sourced from trusted farms and growers." },
-  { name: "Oils & Extracts", image: oilsImg, desc: "Premium range of Indian oils and extracts from high-quality seeds and raw materials." },
-  { name: "Agri Products", image: agriProductsImg, desc: "Diverse range of premium Indian agri products processed under strict standards." },
+  { name: "Fresh Fruits", image: fruitsImg, desc: "Premium fresh fruits, sourced from trusted orchards and handled with care." },
+  { name: "Vegetables", image: vegetablesImg, desc: "Premium fresh vegetables, sourced from trusted farms and growers." },
+  { name: "Oils & Extracts", image: oilsImg, desc: "Premium range of oils and extracts from high-quality seeds and raw materials." },
+  { name: "Agri Products", image: agriProductsImg, desc: "Diverse range of premium agri products processed under strict standards." },
 ];
 
 const ProductsSection = () => {
