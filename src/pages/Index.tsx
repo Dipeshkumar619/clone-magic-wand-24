@@ -8,6 +8,7 @@ import InnovationSection from "@/components/InnovationSection";
 import ValuesSection from "@/components/ValuesSection";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import ScrollReveal from "@/components/ScrollReveal";
 
 const Index = () => {
   return (
@@ -15,11 +16,21 @@ const Index = () => {
       <TopBar />
       <Navbar />
       <HeroSection />
-      <AboutSection />
-      <ProductsSection />
-      <WhyUsSection />
-      <InnovationSection />
-      <ValuesSection />
+      <ScrollReveal>
+        <AboutSection />
+      </ScrollReveal>
+      <ScrollReveal delay={0.1}>
+        <ProductsSection />
+      </ScrollReveal>
+      <ScrollReveal delay={0.1}>
+        <WhyUsSection />
+      </ScrollReveal>
+      <ScrollReveal delay={0.1}>
+        <InnovationSection />
+      </ScrollReveal>
+      <ScrollReveal delay={0.1}>
+        <ValuesSection />
+      </ScrollReveal>
       <Footer />
       <WhatsAppButton />
     </div>
