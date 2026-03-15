@@ -10,7 +10,7 @@ const Footer = () => {
               Falcon <span className="text-gold">Crest</span>
             </h3>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-4">
-              A trusted merchant exporter from India, specializing in premium spices, rice, pulses, and agro commodities.
+              A trusted merchant exporter specializing in premium spices, rice, pulses, and agro commodities.
             </p>
             <div className="flex items-center gap-3">
               <a href="#" className="w-9 h-9 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-gold transition-colors">
