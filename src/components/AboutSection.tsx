@@ -15,7 +15,7 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Falcon Crest is a trusted merchant exporter based in Ananthapur, Andhra Pradesh, and registered under MSME and the Andhra Pradesh Chamber of Commerce. We specialize in the export of premium spices, rice, pulses, and agro commodities, including Dry Red Chilly, Turmeric Powder, Basmati Rice, Non-Basmati Rice, and Ground Nuts.
+              Falcon Crest is a trusted merchant exporter based in Dubai, UAE. We specialize in the export of premium spices, rice, pulses, and agro commodities, including Dry Red Chilly, Turmeric Powder, Basmati Rice, Non-Basmati Rice, and Ground Nuts.
             </p>
 
             <div className="space-y-4 mb-6">
