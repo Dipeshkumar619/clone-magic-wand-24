@@ -9,7 +9,7 @@ const AboutSection = () => {
           About Falcon Crest
         </p>
         <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary text-center mb-12">
-          Leading Spices, Rice & Pulses Exporter from India
+          Leading Spices, Rice & Pulses Exporter
         </h2>
 
         <div className="grid md:grid-cols-2 gap-10 items-center">
