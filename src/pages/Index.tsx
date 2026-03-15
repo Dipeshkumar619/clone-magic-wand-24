@@ -6,6 +6,7 @@ import ProductsSection from "@/components/ProductsSection";
 import WhyUsSection from "@/components/WhyUsSection";
 import InnovationSection from "@/components/InnovationSection";
 import ValuesSection from "@/components/ValuesSection";
+import PartnersSection from "@/components/PartnersSection";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import ScrollReveal from "@/components/ScrollReveal";
