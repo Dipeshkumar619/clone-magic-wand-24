@@ -19,7 +19,7 @@ const HeroSection = () => {
             Premium Spices, Rice & Pulses to the World
           </h1>
           <p className="text-primary-foreground/80 text-base md:text-lg mb-8 max-w-xl leading-relaxed">
-            We are a leading merchant exporter of spices, rice, pulses, and agro commodities from India, specializing in sourcing, processing, customized packing, and global marketing.
+            We are a leading merchant exporter of spices, rice, pulses, and agro commodities, specializing in sourcing, processing, customized packing, and global marketing.
           </p>
           <div className="flex flex-wrap gap-4">
             <a
