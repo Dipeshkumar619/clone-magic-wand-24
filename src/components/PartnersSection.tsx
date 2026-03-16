@@ -19,7 +19,7 @@ const partners = [
   {
     name: "ABN Trading Co.",
     role: "Premium Spice Exporters",
-    image: undefined,
+    image: partnerAbn,
     url: "https://abntradingco.in/",
   },
 ];
