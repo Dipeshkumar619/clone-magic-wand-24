@@ -1,5 +1,6 @@
 import partnerLmok from "@/assets/partner-lmok.jpeg";
 import partnerWeiber from "@/assets/partner-weiber.jpeg";
+import partnerAbn from "@/assets/partner-abn.jpeg";
 import { ExternalLink } from "lucide-react";
 
 const partners = [
