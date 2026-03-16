@@ -1,5 +1,6 @@
 import partnerLmok from "@/assets/partner-lmok.jpeg";
 import partnerWeiber from "@/assets/partner-weiber.jpeg";
+import partnerAbn from "@/assets/partner-abn.jpeg";
 import { ExternalLink } from "lucide-react";
 
 const partners = [
@@ -18,7 +19,7 @@ const partners = [
   {
     name: "ABN Trading Co.",
     role: "Premium Spice Exporters",
-    image: undefined,
+    image: partnerAbn,
     url: "https://abntradingco.in/",
   },
 ];
