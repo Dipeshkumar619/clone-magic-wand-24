@@ -7,7 +7,9 @@ const Footer = () => {
       <div className="container-wide section-padding">
         <div className="grid md:grid-cols-3 gap-10">
           <div>
-            <img src={logo} alt="Falcon Crest Global" className="h-16 w-auto mb-2" />
+            <h3 className="font-heading font-bold text-2xl mb-4">
+              Falcon <span className="text-gold">Crest</span>
+            </h3>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-4">
               A trusted merchant exporter specializing in premium spices, rice, pulses, and agro commodities.
             </p>
