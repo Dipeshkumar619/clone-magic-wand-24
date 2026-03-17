@@ -34,7 +34,7 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground">Call us</p>
-                  <p className="font-semibold text-foreground">+91 8885271092</p>
+                  <p className="font-semibold text-foreground">+91 9211611686</p>
                 </div>
               </div>
             </div>
