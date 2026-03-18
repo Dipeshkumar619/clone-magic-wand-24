@@ -1,7 +1,7 @@
 import spicesImg from "@/assets/spices.jpg";
 import riceImg from "@/assets/rice.jpg";
 import pulsesImg from "@/assets/pulses.jpg";
-import groundnutsImg from "@/assets/groundnuts.jpg";
+
 import nutsOilseedsImg from "@/assets/nuts-oilseeds.jpg";
 import milletsImg from "@/assets/millets.jpg";
 import plantationImg from "@/assets/plantation.jpg";
