@@ -75,20 +75,6 @@ export const products: Product[] = [
     ],
   },
   {
-    name: "Ground Nuts",
-    slug: "ground-nuts",
-    image: groundnutsImg,
-    desc: "Carefully selected and processed ground nuts to maintain freshness and quality.",
-    longDesc: "India is a leading producer of groundnuts. We export bold and java varieties, carefully handpicked, graded, and packed to preserve freshness, taste, and nutritional value.",
-    varieties: [
-      { name: "Bold Groundnuts", description: "Large-kernel variety with a rich, nutty flavor. Ideal for snacking and confectionery." },
-      { name: "Java Groundnuts", description: "Smaller, round kernels with higher oil content. Used in oil extraction and food processing." },
-      { name: "Blanched Groundnuts", description: "Skin-removed peanuts for confectionery, peanut butter, and bakery applications." },
-      { name: "Roasted Groundnuts", description: "Ready-to-eat roasted and salted peanuts for snacking and retail packaging." },
-      { name: "Groundnut Oil", description: "Cold-pressed and refined varieties for cooking, known for a neutral taste and high smoke point." },
-    ],
-  },
-  {
     name: "Nuts & Oilseeds",
     slug: "nuts-oilseeds",
     image: nutsOilseedsImg,
