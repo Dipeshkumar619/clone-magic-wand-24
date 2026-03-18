@@ -20,7 +20,7 @@ const TopBar = () => {
         </div>
         <div className="flex items-center gap-2">
           <Phone className="w-4 h-4 text-gold" />
-          <a href="tel:+918885271092" className="hover:text-gold transition-colors">+91 9211611686</a>
+          <a href="tel:+919211611686" className="hover:text-gold transition-colors">+91 9211611686</a>
         </div>
       </div>
     </div>
