@@ -8,6 +8,7 @@ import InnovationSection from "@/components/InnovationSection";
 import ValuesSection from "@/components/ValuesSection";
 import PartnersSection from "@/components/PartnersSection";
 import Footer from "@/components/Footer";
+import ContactSection from "@/components/ContactSection";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import ScrollReveal from "@/components/ScrollReveal";
 
@@ -34,6 +35,9 @@ const Index = () => {
       </ScrollReveal>
       <ScrollReveal delay={0.1}>
         <PartnersSection />
+      </ScrollReveal>
+      <ScrollReveal delay={0.1}>
+        <ContactSection />
       </ScrollReveal>
       <Footer />
       <WhatsAppButton />
