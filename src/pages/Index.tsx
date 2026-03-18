@@ -36,6 +36,9 @@ const Index = () => {
       <ScrollReveal delay={0.1}>
         <PartnersSection />
       </ScrollReveal>
+      <ScrollReveal delay={0.1}>
+        <ContactSection />
+      </ScrollReveal>
       <Footer />
       <WhatsAppButton />
     </div>
