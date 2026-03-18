@@ -1,44 +1,68 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Link, useLocation } from "react-router-dom";
 import logo from "@/assets/logo.png";
 
 const navLinks = [
-  { label: "Home", href: "#" },
-  { label: "About", href: "#about" },
-  { label: "Products", href: "#products" },
-  { label: "Why Us", href: "#why-us" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/" },
+  { label: "About", href: "/#about" },
+  { label: "Products", href: "/#products" },
+  { label: "Why Us", href: "/#why-us" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const location = useLocation();
+
+  const handleNavClick = (href: string) => {
+    setOpen(false);
+    if (href === "/") {
+      if (location.pathname === "/") {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+      return;
+    }
+    // For hash links on the home page
+    if (href.startsWith("/#")) {
+      const hash = href.substring(1); // e.g. #about
+      if (location.pathname === "/") {
+        const el = document.querySelector(hash);
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    }
+  };
 
   return (
     <nav className="bg-background shadow-sm sticky top-0 z-50">
       <div className="container-wide px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 md:h-20">
-        <a href="#" className="flex items-center gap-2">
+        <Link to="/" className="flex items-center gap-2">
           <img src={logo} alt="Falcon Crest Global" className="h-16 md:h-20 w-auto" />
-        </a>
+        </Link>
 
         {/* Desktop nav */}
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <li key={link.label}>
-              <a
-                href={link.href}
+              <Link
+                to={link.href}
+                onClick={() => handleNavClick(link.href)}
                 className="text-foreground font-medium hover:text-gold transition-colors text-sm uppercase tracking-wide"
               >
                 {link.label}
-              </a>
+              </Link>
             </li>
           ))}
           <li>
-            <a
-              href="#contact"
+            <Link
+              to="/#contact"
+              onClick={() => handleNavClick("/#contact")}
               className="bg-gold text-secondary-foreground px-5 py-2.5 rounded font-semibold text-sm hover:bg-gold-dark transition-colors"
             >
               Get Quote
-            </a>
+            </Link>
           </li>
         </ul>
 
@@ -54,23 +78,23 @@ const Navbar = () => {
           <ul className="flex flex-col gap-3 pt-3">
             {navLinks.map((link) => (
               <li key={link.label}>
-                <a
-                  href={link.href}
-                  onClick={() => setOpen(false)}
+                <Link
+                  to={link.href}
+                  onClick={() => handleNavClick(link.href)}
                   className="block py-2 text-foreground hover:text-gold transition-colors font-medium"
                 >
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
             <li>
-              <a
-                href="#contact"
-                onClick={() => setOpen(false)}
+              <Link
+                to="/#contact"
+                onClick={() => handleNavClick("/#contact")}
                 className="block bg-gold text-secondary-foreground px-5 py-2.5 rounded font-semibold text-sm text-center"
               >
                 Get Quote
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
