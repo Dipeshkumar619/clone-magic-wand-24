@@ -50,7 +50,7 @@ const AboutSection = () => {
               alt="About Falcon Crest"
               className="rounded-lg shadow-xl w-[60%] object-cover aspect-square mx-auto"
             />
-            <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-gold rounded-lg hidden md:block" />
+            <div className="absolute -bottom-3 left-[18%] w-16 h-16 bg-gold rounded-lg hidden md:block" />
           </div>
         </div>
       </div>
