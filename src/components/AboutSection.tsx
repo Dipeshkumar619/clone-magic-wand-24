@@ -3,8 +3,8 @@ import { Mail, Phone } from "lucide-react";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="section-padding bg-cream">
-      <div className="container-wide">
+    <section id="about" className="py-10 bg-cream">
+      <div className="max-w-5xl mx-auto px-4">
         <p className="text-gold font-semibold text-sm uppercase tracking-widest mb-2 text-center">
           About Falcon Crest
         </p>
