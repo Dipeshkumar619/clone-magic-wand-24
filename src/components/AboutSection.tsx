@@ -48,7 +48,7 @@ const AboutSection = () => {
             <img
               src={aboutImg}
               alt="About Falcon Crest"
-              className="rounded-lg shadow-xl w-full object-cover aspect-square"
+              className="rounded-lg shadow-xl w-full max-h-80 object-cover object-top"
             />
             <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-gold rounded-lg hidden md:block" />
           </div>
