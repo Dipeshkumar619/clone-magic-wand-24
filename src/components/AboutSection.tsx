@@ -1,4 +1,3 @@
-import aboutImg from "@/assets/about.png";
 import { Mail, Phone } from "lucide-react";
 
 const AboutSection = () => {
