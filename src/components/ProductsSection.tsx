@@ -3,7 +3,7 @@ import { products } from "@/data/products";
 
 const ProductsSection = () => {
   return (
-    <section id="products" className="section-padding pt-10 md:pt-14">
+    <section id="products" className="section-padding">
       <div className="container-wide">
         <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary text-center mb-4">
           Our Products
