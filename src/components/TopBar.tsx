@@ -18,9 +18,16 @@ const TopBar = () => {
             </a>
           </div>
         </div>
-        <div className="flex items-center gap-2">
-          <Phone className="w-4 h-4 text-gold" />
-          <a href="tel:+919211611686" className="hover:text-gold transition-colors">+91 9211611686</a>
+        <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2">
+            <Phone className="w-4 h-4 text-gold" />
+            <a href="tel:+919211611686" className="hover:text-gold transition-colors">+91 9211611686</a>
+          </div>
+          <span className="text-primary-foreground/30">|</span>
+          <div className="flex items-center gap-2">
+            <Phone className="w-4 h-4 text-gold" />
+            <a href="tel:+971505170270" className="hover:text-gold transition-colors">+971 505170270</a>
+          </div>
         </div>
       </div>
     </div>
