@@ -12,7 +12,7 @@ const partners = [
   },
   {
     name: "Weiber India",
-    role: "Marketing Director – Mahadev Panda",
+    role: "",
     image: partnerWeiber,
     url: undefined,
   },
