@@ -6,13 +6,13 @@ import { ExternalLink } from "lucide-react";
 const partners = [
   {
     name: "LMOK Global Trade",
-    role: "CEO – Karanam Obula Rao",
+    role: "",
     image: partnerLmok,
     url: undefined,
   },
   {
     name: "Weiber India",
-    role: "Marketing Director – Mahadev Panda",
+    role: "",
     image: partnerWeiber,
     url: undefined,
   },
