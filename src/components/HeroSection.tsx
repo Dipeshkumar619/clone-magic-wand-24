@@ -16,7 +16,7 @@ const HeroSection = () => {
             Trusted Exporters of Quality Agro Products
           </p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground leading-tight mb-6">
-            Falcon Crest — Premium Spices, Rice & Pulses Exporter
+            Falcon Crest<br />Premium Spices, Rice & Pulses Exporter
           </h1>
           <p className="text-primary-foreground/80 text-base md:text-lg mb-8 max-w-xl leading-relaxed">
             We are a leading merchant exporter of spices, rice, pulses, and agro commodities, specializing in sourcing, processing, customized packing, and global marketing.
