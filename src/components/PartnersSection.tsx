@@ -6,7 +6,7 @@ import { ExternalLink } from "lucide-react";
 const partners = [
   {
     name: "LMOK Global Trade",
-    role: "CEO – Karanam Obula Rao",
+    role: "",
     image: partnerLmok,
     url: undefined,
   },
